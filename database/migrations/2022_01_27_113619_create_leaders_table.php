@@ -18,7 +18,6 @@ class CreateLeadersTable extends Migration
             $table -> string('name');
             $table -> string('surname');
             $table -> string('role');
-
             $table -> timestamps();
         });
     }
