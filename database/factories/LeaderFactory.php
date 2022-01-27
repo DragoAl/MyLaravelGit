@@ -2,10 +2,10 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Leader;
+use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(Leader::class, function (Faker $faker) {
+$factory->define(Model::class, function (Faker $faker) {
     return [
         'name' => $faker -> firstName(),
         'surname' => $faker -> lastName() ,

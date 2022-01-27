@@ -2,10 +2,10 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Task;
+use App\Model;
 use Faker\Generator as Faker;
 
-$factory->define(Task::class, function (Faker $faker) {
+$factory->define(Model::class, function (Faker $faker) {
     return [
         'name' => $faker -> word() ,
         'deadline' => $faker -> date() ,
