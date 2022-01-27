@@ -9,7 +9,7 @@ $factory->define(Employee::class, function (Faker $faker) {
     return [
         'name' => $faker -> firstName(),
         'surname'=> $faker -> lastName(),
-        'fiscal_code'=> $faker -> taxId(),
+        'fiscal_code'=> $faker -> word(),
         'assumption'=> $faker -> date() ,
         'role'=> $faker -> word() 
     ];
